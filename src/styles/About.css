@@ -1,0 +1,38 @@
+/* About.module.css */
+
+.about {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 132, 0, 0.996);
+}
+
+.aboutBottom {
+  text-align: center;
+}
+
+.aboutBottom h1 {
+  color: rgba(255, 132, 0, 0.996);;
+}
+
+.aboutBottom img {
+  max-width: 15%;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+.aboutBottom ul {
+  list-style: none;
+  padding: 0;
+}
+
+.aboutBottom li {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.aboutBottom p {
+  margin-top: 20px;
+}
+
+/* Add more styles as needed */

@@ -1,0 +1,65 @@
+/* Home.css */
+
+.home {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: right;
+  align-items: right; 
+  flex-direction: column;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+
+.headerContainer button {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(20, 162, 228, 0.293);
+  height: 50px;
+  width: 180px;
+  font-size: 20px;
+  text-decoration: none;
+  margin-top: auto; 
+  margin-bottom: 20px; 
+}
+
+.headerContainer button:hover {
+  background-color: rgba(255, 132, 0, 0.996);;
+  transition: background-color 0.3s ease-in;
+}
+
+@media only screen and (max-width: 650px) {
+  .home {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headerContainer {
+    margin: 0; /* Menggunakan margin 0 untuk menghapus margin kiri */
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 132, 0, 0.996);
+    color: white;
+  }
+
+  .headerContainer button {
+    background-color: white;
+    color: #121619;
+    margin-bottom: 30px;
+  }
+
+  .headerContainer button:hover {
+    background-color: rgb(225, 225, 225);
+    color: #121619;
+  }
+}
