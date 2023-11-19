@@ -1,2 +1,2 @@
 # website-pribadi
-Nurani Syahidah_2200462_UTS PROMNET
+Geral Septira Alfarizi Rades
