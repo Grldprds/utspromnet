@@ -1,51 +1,45 @@
-/* Contact.module.css */
+/* Contact.css */
 
 .contact {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding: 40px; /* Adjusted padding for better spacing */
+  height: 100vh;
+  background-color: #f8f8f8;
 }
 
-.rightSide {
-  flex: 1;
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-  margin-right: 20px;
+.content {
+  width: 80%; /* Adjusted width for a more balanced layout */
+  text-align: center;
 }
 
-.leftSide {
-  flex: 1;
-  max-width: 500px;
-}
-
-.leftSide h1 {
+.contact h1 {
   font-size: 32px;
   margin-bottom: 20px;
   color: #333;
 }
 
-form {
+.contact form {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
-label {
+.contact label {
   margin-bottom: 8px;
   color: #333;
 }
 
-input,
-textarea {
-  padding: 10px;
+.content input,
+.content textarea {
+  padding: 20px; /* Increase padding for larger input boxes */
   margin-bottom: 16px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
-button {
+.contact button {
   background-color: #4caf50;
   color: white;
   padding: 12px;
@@ -54,7 +48,6 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.contact button:hover {
   background-color: #45a049;
 }
-

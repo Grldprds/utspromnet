@@ -1,29 +1,38 @@
 /* About.module.css */
 
 .about {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(255, 132, 0, 0.996);
 }
 
 .aboutBottom {
   text-align: center;
+  position: relative; /* Menambahkan position: relative; pada .aboutBottom */
 }
 
 .aboutBottom h1 {
-  color: rgba(255, 132, 0, 0.996);;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.996);
+  margin-left: 10%;
 }
 
 .aboutBottom img {
-  max-width: 15%;
-  border-radius: 50%;
-  margin: 20px 0;
+  max-width: 30%;
+  float: left;
+}
+
+.aboutBottom .biography {
+  margin-top: 20px; /* Menambahkan margin-top pada biography */
 }
 
 .aboutBottom ul {
   list-style: none;
+  font-size: 30px;
   padding: 0;
+  margin-top: 10%;
+  margin-right: 20%;
+  text-align: center;
 }
 
 .aboutBottom li {
@@ -32,7 +41,7 @@
 }
 
 .aboutBottom p {
-  margin-top: 20px;
+  padding-top: 20px;
+  clear: left;
 }
 
-/* Add more styles as needed */
